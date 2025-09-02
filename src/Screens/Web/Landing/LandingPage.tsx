@@ -1,5 +1,10 @@
 import type { FC } from "react";
 import HeroSection from "./Sections/HeroSection";
+import NewsMarqueeSection from "./Sections/NewsMarqueeSection";
+import CarouselSection from "./Sections/CarouselSection";
+import CourseWithPricingSection from "./Sections/CourseWithPricingSection";
+import SuccessStoriesSection from "./Sections/SuccessStoriesSection";
+import AboutSection from "./Sections/AboutSection";
 
 /**
  * LandingPage Component
@@ -14,6 +19,11 @@ const LandingPage: FC = () => {
   return (
     <div className="bg-[#F6F5F0]">
       <HeroSection />
+      <CarouselSection />
+      <NewsMarqueeSection />
+      <CourseWithPricingSection/>
+      <SuccessStoriesSection/>
+      <AboutSection/>
     </div>
   );
 };
