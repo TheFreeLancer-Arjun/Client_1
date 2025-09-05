@@ -5,6 +5,7 @@ import CarouselSection from "./Sections/CarouselSection";
 import CourseWithPricingSection from "./Sections/CourseWithPricingSection";
 import SuccessStoriesSection from "./Sections/SuccessStoriesSection";
 import AboutSection from "./Sections/AboutSection";
+import NewTakeupAtAGlanceSection from "./Sections/NewTakeupAtAGlanceSection";
 
 /**
  * LandingPage Component
@@ -24,6 +25,7 @@ const LandingPage: FC = () => {
       <CourseWithPricingSection/>
       <SuccessStoriesSection/>
       <AboutSection/>
+      <NewTakeupAtAGlanceSection/>
     </div>
   );
 };
